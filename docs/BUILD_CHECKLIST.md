@@ -1,0 +1,12 @@
+# Build Checklist
+- [ ] Create PostgreSQL database and run schema
+- [ ] Load all CSVs and reconcile row counts
+- [ ] Run each analysis query and explain the result
+- [ ] Import data into Power BI Desktop
+- [ ] Build relationships and Date table
+- [ ] Create every DAX measure manually
+- [ ] Build four dashboard pages
+- [ ] Add tooltips, slicers, drill-through, and conditional formatting
+- [ ] Validate totals against SQL
+- [ ] Export dashboard screenshots into `screenshots/`
+- [ ] Commit `.pbix` only after personally building and reviewing it
